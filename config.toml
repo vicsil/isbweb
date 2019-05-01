@@ -37,10 +37,10 @@ theme = "hugo-elate-theme"
     title = "Services"
     enable = true
   [[params.navigation.item]]
-    title = "Stats"
+    title = "About"
     enable = true
   [[params.navigation.item]]
-    title = "About"
+    title = "Stats"
     enable = true
   [[params.navigation.item]]
     title = "Contact"
