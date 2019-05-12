@@ -19,9 +19,6 @@ theme = "hugo-elate-theme"
   description = ""
   email = ""
 
-  # Google Maps Javascript API Key (if not set will default to not passing a key)
-  googleMapsApiKey = ""
-
   # Navigation
   [params.navigation]
     brand = "ISB"
@@ -91,101 +88,75 @@ theme = "hugo-elate-theme"
     description = "Ven a jugar con nosotros. ¡Te encantará!"
     footertext = 'TODO: Find a good image to show here'
 
-    # [[params.work.row]]
-    #   img = "work_1.jpg"
-    #   alt = "Image2"
-    #   title = "Project 1"
-    #   subtitle = "Branding"
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
 
-    # [[params.work.row]]
-    #   img = "work_2.jpg"
-    #   alt = "Image2"
-    #   title = "Project 2"
-    #   subtitle = "Design"
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
 
-    # [[params.work.row]]
-    #   img = "work_3.jpg"
-    #   alt = "Image3"
-    #   title = "Project 3"
-    #   subtitle = "Design"
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
 
-    # [[params.work.row]]
-    #   img = "work_4.jpg"
-    #   alt = "Image4"
-    #   title = "Project 4"
-    #   subtitle = "Design"
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
 
-    # [[params.work.row]]
-    #   img = "work_5.jpg"
-    #   alt = "Image5"
-    #   title = "Project 5"
-    #   subtitle = "Design"
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
 
     [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
 
-  # Testimonials section
-  [params.testimonials]
+  # Counters section
+  [params.counters]
     enable = true
-    title = "Testimonials"
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Jugadores"
+      icon = "icon-people"
+      from = 0
+      to = 999
+      interval = 1
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Horas en apnea al día"
+      icon = "icon-spinner"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Campeonatos ganados"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "???"
+      icon = "icon-code"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+# About section
+   [params.schedule]
+    enable = true
+    title = "Horarios"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-    
-
-
-
-  # Services section
-  [params.services]
-    enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
-
-  # About section
-  [params.about]
-    enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.about.item]]
+    [[params.schedule.item]]
       name = "Jean Smith"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
@@ -197,7 +168,7 @@ theme = "hugo-elate-theme"
         ["icon-linkedin", "#"]
       ]
 
-    [[params.about.item]]
+    [[params.schedule.item]]
       name = "Rob Smith"
       position = "Web Developer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
@@ -209,7 +180,7 @@ theme = "hugo-elate-theme"
         ["icon-github", "#"]
       ]
 
-    [[params.about.item]]
+    [[params.schedule.item]]
       name = "Larry Ben"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
@@ -219,67 +190,26 @@ theme = "hugo-elate-theme"
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
-      ]      
-
-  # Counters section
-  [params.counters]
-    enable = true
-    title = "Stats"
-    background = "full_image_1.jpg"
-
-    [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
-      from = 0
-      to = 52
-      interval = 50
-      speed = 5000
+      ]
 
   # Contact section
   [params.contact]
     enable = true
     map = true
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contacto"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-home", "CEM Besòs, Ronda de Sant Ramon de Penyafort 08930 Barcelona"],
         ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-envelope", "hoqueisub@gmail.com"],
       ]
 
-    name = "Name"
+    name = "Nombre"
     email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    message = "Mensaje"
+    button = "Enviar mensaje"
 
   # Footer section
   [params.footer]
