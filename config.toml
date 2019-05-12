@@ -45,6 +45,8 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "I.S.B Hockey Subacuático"
     subtitle = 'Club de Hockey Subacuático en Barcelona'
+    logo = "ISB_logo.jpg"
+    background = "ISB_ring.jpg"
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -89,66 +91,58 @@ theme = "hugo-elate-theme"
     footertext = 'TODO: Find a good image to show here'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
+      img = "ISB_team1.jpg"
+      alt = "Equipo"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
+      img = "ISB_team2.jpg"
+      alt = "Equipo"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
+      img = "ISB_team3.jpg"
+      alt = "Equipo"
 
     [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
+      img = "ISB_team4.jpg"
+      alt = "Equipo"
 
     [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
+      img = "ISB_team5.jpg"
+      alt = "Equipo"
 
     [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
+      img = "ISB_fight.jpg"
+      alt = "Lucha"
 
   # Counters section
   [params.counters]
     enable = true
     title = "Stats"
-    background = "full_image_1.jpg"
+    background = "ISB_fight_cut.jpg"
 
     [[params.counters.item]]
       description = "Jugadores"
       icon = "icon-people"
       from = 0
-      to = 999
+      to = 43
       interval = 1
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
-      description = "Horas en apnea al día"
+      description = "Minutos en apnea a la semana"
       icon = "icon-spinner"
       from = 0
-      to = 2343409
+      to = 10320
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Campeonatos ganados"
-      icon = "icon-cup"
+      description = "Años del club"
+      icon = "icon-trophy"
       from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "???"
-      icon = "icon-code"
-      from = 0
-      to = 52
-      interval = 50
-      speed = 5000
+      to = 23
+      interval = 1
+      speed = 1000
 
 # About section
    [params.schedule]
@@ -197,9 +191,8 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
-        ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],
+        ["icon-instagram", "#instagram"],
         ["icon-youtube", "#youtube"]
       ]
