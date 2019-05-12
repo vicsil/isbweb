@@ -1,0 +1,81 @@
+	<section id="fh5co-about" data-section="schedule">
+		<!-- <div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">{{ with .Site.Params.schedule.title }}{{ . | markdownify }}{{ end }}</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>{{ with .Site.Params.schedule.description }}{{ . | markdownify }}{{ end }}</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			{{ range .Site.Params.schedule.item }}
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
+						<h3>{{ .name | markdownify }}</h3>
+						<span class="fh5co-position">{{ .position | markdownify }}</span>
+						<p>{{ .description | markdownify }}</p>
+						<ul class="social social-circle">
+						{{ range .social }}
+							<li><a href="{{ index . 1 }}"><i class="{{ index .  0 }}"></i></a></li>
+						{{ end }}
+						</ul>
+					</div>
+				</div>
+			{{ end }}
+			</div>
+		</div> -->
+		<div class="cd-schedule cd-schedule--loading margin-top--lg margin-bottom--lg js-cd-schedule">
+			<div class="cd-schedule__timeline">
+				<ul>
+					{{ range .Site.Params.schedule.times }}
+					<li><span>{{.}}</span></li>
+					{{ end }}
+				</ul>
+			</div> <!-- .cd-schedule__timeline -->
+
+			<div class="cd-schedule__events">
+				<ul>
+					{{ range .Site.Params.schedule.days}}
+					{{ $day := . }}
+					<li class="cd-schedule__group">
+						<div class="cd-schedule__top-info"><span>{{.}}</span></div>
+						{{ $sectionPages := where $.Site.Params.schedule.event "day" $day }}
+						{{ if ge (len $sectionPages) 1 }}
+						<ul>
+							{{ range $sectionPages}}
+							<li class="cd-schedule__event">
+								<a data-start="{{ .start }}" data-end="{{ .end }}" data-content="event-abs-circuit" data-event="event-1" href="#0">
+									<em class="cd-schedule__name">{{ .name }}</em>
+								</a>
+							</li>
+							{{ end }}
+						</ul>
+						{{ end }}
+					</li>
+					{{ end }}
+				</ul>
+			</div>
+
+			<!-- <div class="cd-schedule-modal">
+				<header class="cd-schedule-modal__header">
+					<div class="cd-schedule-modal__content">
+						<span class="cd-schedule-modal__date"></span>
+						<h3 class="cd-schedule-modal__name"></h3>
+					</div>
+
+					<div class="cd-schedule-modal__header-bg"></div>
+				</header>
+
+				<div class="cd-schedule-modal__body">
+					<div class="cd-schedule-modal__event-info"></div>
+					<div class="cd-schedule-modal__body-bg"></div>
+				</div>
+
+				<a href="#0" class="cd-schedule-modal__close text--replace">Close</a>
+			</div> -->
+		</div> <!-- .cd-schedule -->
+	</section>
