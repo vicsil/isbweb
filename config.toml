@@ -28,38 +28,21 @@ theme = "hugo-elate-theme"
     home = "Inicio"
 
   [[params.navigation.item]]
-    title = "Work"
+    title = "Juega con nosotros"
+    anchor = "work"
     enable = true
   [[params.navigation.item]]
-    title = "Testimonials"
+    title = "Horarios"
+    anchor = "schedule"
     enable = true
   [[params.navigation.item]]
-    title = "Services"
+    title = "Estadísticas"
+    anchor = "counters"
     enable = true
   [[params.navigation.item]]
-    title = "About"
+    title = "Contacto"
+    anchor = "contact"
     enable = true
-  [[params.navigation.item]]
-    title = "Stats"
-    enable = true
-  [[params.navigation.item]]
-    title = "Contact"
-    enable = true
-
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
-    
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
   
   # Hero section
   [params.hero]

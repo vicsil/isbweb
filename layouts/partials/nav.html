@@ -18,7 +18,7 @@
                     
                     {{ range .Site.Params.navigation.item }}
                         {{ if .enable }}
-                            <li><a href="#" data-nav-section="{{ .title | lower }}"><span>{{ with .title }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                            <li><a href="#" data-nav-section="{{ .anchor | lower }}"><span>{{ with .title }}{{ . | markdownify }}{{ end }}</span></a></li>
                         {{ end }}
                     {{ end }}
 
