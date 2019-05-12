@@ -179,7 +179,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "CEM Besòs, Ronda de Sant Ramon de Penyafort 08930 Barcelona"],
-        ["icon-phone", "(123) 465-6789"],
+        #["icon-phone", "(123) 465-6789"],
         ["icon-envelope", "hoqueisub@gmail.com"],
       ]
 
@@ -192,7 +192,8 @@ theme = "hugo-elate-theme"
   [params.footer]
     enable = true
     links = [
-        ["icon-facebook", "#facebook"],
+        ["icon-notebook", "http://hoqueisub.blogspot.com/"],
+        ["icon-facebook", "https://www.facebook.com/hoqueisubaquatic.barcelona/"],
         ["icon-instagram", "#instagram"],
-        ["icon-youtube", "#youtube"]
+        ["icon-youtube", "https://www.youtube.com/channel/UCC33opysMVTYRCAXIxKTbhw"]
       ]
