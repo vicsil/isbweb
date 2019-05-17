@@ -1,0 +1,42 @@
+time_ranges = ["09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"]
+days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+
+[[events]]
+name = "Entreno 1"
+description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
+day = "Lunes"
+start = "20:00"
+end = "22:00"
+type = 1
+
+[[events]]
+name = "Entreno 1"
+description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
+day = "Lunes"
+start = "10:00"
+end = "12:00"
+type = 1
+
+[[events]]
+name = "Entreno 1"
+description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
+day = "Lunes"
+start = "16:00"
+end = "18:00"
+type = 1
+
+[[events]]
+name = "Entreno 1"
+description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
+day = "Lunes"
+start = "18:00"
+end = "20:00"
+type = 1
+
+[[events]]
+name = "Entreno 2"
+description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
+day = "Miércoles"
+start = "12:00"
+end = "14:00"
+type = 4

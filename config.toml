@@ -121,27 +121,8 @@ theme = "hugo-elate-theme"
    [params.schedule]
     enable = true
     title = "Horarios"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    times = ["09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"]
-    days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
-
-
-    [[params.schedule.event]]
-      name = "Entreno 1"
-      description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
-      day = "Lunes"
-      start = "20:00"
-      end = "22:00"
-
-    [[params.schedule.event]]
-      name = "Entreno 2"
-      description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
-      day = "Miércoles"
-      start = "12:00"
-      end = "14:00"
-
-
+    description = "Estos son los días y horarios en los que puedes venir a jugar con nosotros:"
+    
   # Contact section
   [params.contact]
     enable = true
