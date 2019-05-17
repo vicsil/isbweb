@@ -15,9 +15,8 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = ""
-  description = ""
-  email = ""
+  author = "Víctor Guzmán"
+  description = "Static page for the Underwater Hockey team Intrèpids Seitons del Barcelonés"
 
   # Navigation
   [params.navigation]
