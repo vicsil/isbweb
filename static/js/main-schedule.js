@@ -291,15 +291,12 @@
 	ScheduleTemplate.prototype.loadEventContent = function(content) {
 		// load the content of an event when user selects it
 		var self = this;
-      	self.modal.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML = content; 
+		self.modal.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML = self.getEventContent(content);
       	Util.addClass(self.modal, 'cd-schedule-modal--content-loaded');
 	};
 
 	ScheduleTemplate.prototype.getEventContent = function(string) {
-		// reset the loaded event content so that it can be inserted in the modal
-		var div = document.createElement('div');
-		div.innerHTML = string.trim();
-		return div.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML;
+		return "<div>" + string.replace(/\n/g, "<br/>").trim() + "</div>";
 	};
 
 	ScheduleTemplate.prototype.animationFallback = function() {

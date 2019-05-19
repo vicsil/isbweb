@@ -3,38 +3,42 @@ days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Doming
 
 [[events]]
 name = "Entreno 1"
-description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
+description = """
+Media hora de entrenamiento seco.
+Media hora de natación.
+Una hora de partido
+"""
 day = "Lunes"
 start = "20:00"
 end = "22:00"
 type = 1
 
 [[events]]
-name = "Entreno 1"
+name = "Entreno 2"
 description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
 day = "Lunes"
 start = "10:00"
 end = "12:00"
-type = 1
+type = 2
 
 [[events]]
-name = "Entreno 1"
+name = "Entreno 3"
 description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
 day = "Lunes"
 start = "16:00"
 end = "18:00"
-type = 1
+type = 3
 
 [[events]]
-name = "Entreno 1"
+name = "Entreno 4"
 description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
 day = "Lunes"
 start = "18:00"
 end = "20:00"
-type = 1
+type = 4
 
 [[events]]
-name = "Entreno 2"
+name = "Entreno Martes"
 description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
 day = "Miércoles"
 start = "12:00"
