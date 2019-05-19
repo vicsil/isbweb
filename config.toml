@@ -62,7 +62,6 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Juega con nosotros"
     description = "Ven a jugar con nosotros. ¡Te encantará!"
-    footertext = 'TODO: Find a good image to show here'
 
     [[params.work.row]]
       img = "ISB_team1.jpg"
