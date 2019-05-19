@@ -1,46 +1,80 @@
-time_ranges = ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",  "16:00",  "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00",  "22:30", "23:00",  "23:30", "00:00"]
-days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+time_ranges = ["16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00",  "22:30", "23:00",  "23:30", "00:00"]
+
+days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+
 
 [[events]]
-name = "Entreno 1"
+name = "Entreno peques y jóvenes"
 description = """
-Media hora de entrenamiento seco.
-Media hora de natación.
-Una hora de partido
+Una hora y media de natación.
+Una hora de hockey subacuático.
+
+Enfocado a menores de edad
 """
+
 day = "Lunes"
-start = "20:00"
+start = "19:30"
 end = "22:00"
 type = 1
 
+
 [[events]]
-name = "Entreno 2"
-description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
-day = "Lunes"
-start = "10:00"
-end = "12:00"
+name = "Entreno de natación (consultar disponibilidad)"
+description = """
+Natación.
+
+La realización de la actividad dependerá de la disponibilidad de la piscina y de la cantidad de personas apuntadas.
+
+Todas las edades.
+"""
+
+day = "Martes"
+start = "19:30"
+end = "22:00"
 type = 2
 
+
 [[events]]
-name = "Entreno 3"
-description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
-day = "Lunes"
-start = "16:00"
-end = "18:00"
+name = "Entreno lúdico"
+description = """
+Una hora y media de natación.
+Una hora de hockey subacuático.
+
+Todas las edades
+"""
+
+day = "Miércoles"
+start = "19:30"
+end = "22:00"
 type = 3
 
-[[events]]
-name = "Entreno 4"
-description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
-day = "Lunes"
-start = "18:00"
-end = "20:00"
-type = 4
 
 [[events]]
-name = "Entreno Martes"
-description = "Media hora entrenamiento seco. Media hora natación. Una hora de partido"
-day = "Miércoles"
-start = "12:00"
-end = "14:00"
+name = "Entreno de alta intensidad"
+description = """
+Una hora de natación.
+Una hora y media de técnica y hockey subacuático.
+
+Todas las edades
+"""
+
+day = "Viernes"
+start = "19:30"
+end = "22:00"
+type = 3
+
+
+[[events]]
+name = "Entreno familiar (consultar disponibilidad)"
+description = """
+Varios fines de semana se practica técnica y partidos.
+
+La realización de la actividad dependerá de la disponibilidad de la piscina y de la cantidad de personas apuntadas.
+
+Todas las edades
+"""
+
+day = "Sábado"
+start = "16:00"
+end = "19:00"
 type = 4
