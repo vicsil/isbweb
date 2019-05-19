@@ -17,6 +17,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "Víctor Guzmán"
   description = "Static page for the Underwater Hockey team Intrèpids Seitons del Barcelonés"
+  email = "hoqueisub@gmail.com"
 
   # Navigation
   [params.navigation]
