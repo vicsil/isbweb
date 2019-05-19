@@ -296,7 +296,7 @@
 	};
 
 	ScheduleTemplate.prototype.getEventContent = function(string) {
-		return "<div>" + string.replace(/\n/g, "<br/>").trim() + "</div>";
+		return "<div><h4>" + string.replace(/\n/g, "<br/>").trim() + "</h4></div>";
 	};
 
 	ScheduleTemplate.prototype.animationFallback = function() {
